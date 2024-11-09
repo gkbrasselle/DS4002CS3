@@ -24,7 +24,7 @@ This project was completed using Mac and Windows platforms. The coding language 
 ### Please follow these steps in order to replicate this project's experimental design:
 
 1. Download celebrity images on Google, separating them into folders by celebrity name, such as "Margot-Robbie" or "Will-Smith." Ensure that each folder contains 100 celebrity images, labelled 01-100. Alternatively, use the image folders pre-collected in the "celebrities" folder for ease of replication.
-2. Navigate to the "step1_testing.ipynb" in the "SCRIPTS" folder.
+2. Navigate to the "step1_testing.ipynb" in the "SCRIPTS" folder. Install the necessary libraries / dependencies to run the code (listed at the top of the file).
 3. Next, open the "step2_EDA.ipynb" in the "SCRIPTS" folder to create some visuals. This will help better understand the variables used in the dataset.
 
 ## References
