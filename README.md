@@ -7,20 +7,17 @@ This project was completed using Mac and Windows platforms. The coding language 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
-
+    - celeb_image_data.csv --> final dataset used for analysis 
       
 2. SCRIPTS
+    - step1_testing.ipynb --> 
+    - step2_EDA.ipynb --> script containing the intial exploratory data analysis plots
 
-
-3. OUTPUT
+4. OUTPUT
 
       
-4. LICENSE.md
-5. README.md
-
-#### CURRENT DATASET VARIABLES:
-
-
+5. LICENSE
+6. README.md
   
 ## Section 3: Instructions for reproducing results
 
