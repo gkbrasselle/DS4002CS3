@@ -43,13 +43,8 @@ This project was completed using Mac and Windows platforms. The coding language 
 
 ### Please follow these steps in order to replicate this project's experimental design:
 
-1. Extract the data from the links above in Section II. Copy and paste into an excel sheet and convert the file to a CSV file. The file named "DS4002-Project2-Data-CLEANED.csv" can also be accessed in the DATA folder. This is the cleaned dataset and can be used for ease of replicating.  
-3. Navigate to "project2_script.ipynb" file, which is located in the SCRIPTS folder.
-4. Load the datset using the code in the file, and then follow the code to perform inital EDA. Using the code from "p2dataappendix.R" in the SCRIPTS folder, this will display additional summary statistics of variables included in the dataset.
-5. Navigate back to "project2_script.ipynb" in the SCRIPTS folder, begin the ARIMA modeling process after downloading the necessary Python libraries. Select appropriate values for p, d, and q values using the data visualizations created in the code. The code under the "Choosing best ARIMA parameters" section consists of some tests and plots used to determine appropriate parameters. Feel free to change the parameters if you feel there are more fitting values.
-6. The second part of the ARIMA modeling process is the code located under the "Now actually using the ARIMA model" section. This is where ARIMA will use the historical wage ratio data from 1960-2000 to predict the wage ratios for 2001-2019. A model fit summary and dataframe of the predicted and actual wage ratios will be generated to easily compare the values. 
-7. Then, the MSE, RMSE, and residuals are calculated. The code will plot the residuals on a plot, display summary statistics of the residuals, and display a graphic of the actual and predicted wage ratios.
-8. Lastly, the section "Attempting To Model Using Holt's Dampened Trend" is a little extra code we deployed that tried to forcast the wage ratio using exponential smoothing techniques. This step is optional.
+1. Download celebrity images on google, separating them into folders by celebrity name (ex: "Margot-Robbie"). Ensure that each folder contains 100 celebrity images, labelled 01-100. Alternatively, use the image folders pre-collected in the "celebrities" folder.
+2. Navigate to the "step1_testing.ipynb" in the "SCRIPTS" folder.
 
 ## References
 [1] 	B. Etienne, “Time Series in Python — Exponential Smoothing and ARIMA processes,” TowardsDataScience.com, https://towardsdatascience.com/time-series-in-python-exponential-smoothing-and-arima-processes-2c67f2a52788 (accessed Oct. 23, 2024).  
