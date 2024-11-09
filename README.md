@@ -2,7 +2,7 @@
 # This is just copied from project 2 but will edit later 
 ## Section 1: Software and platform section
 
-This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environment used was Google Colab. The ARIMA Modeling package in Python was used, for which documentation can be accessed here: https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environment used was Google Colab. The face-recognition package in Python was used, for which documentation can be accessed here: https://pypi.org/project/face-recognition/
 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
