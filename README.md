@@ -7,7 +7,8 @@ This project was completed using Mac and Windows platforms. The coding language 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
-    - celeb_image_data.csv --> final dataset used for analysis 
+    - celeb_image_data.csv --> final dataset used for analysis
+    - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
       
 2. SCRIPTS
     - step1_testing.ipynb --> 
