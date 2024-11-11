@@ -30,4 +30,5 @@ This project was completed using Mac and Windows platforms. The coding language 
 3. Next, open the "step2_EDA.ipynb" in the "SCRIPTS" folder to create some visuals. This will help better understand the variables used in the dataset.
 
 ## References
-[1] “Face-recognition,” PyPI, https://pypi.org/project/face-recognition/ (accessed Nov. 6, 2024).   
+[1] “Face-recognition,” PyPI, https://pypi.org/project/face-recognition/ (accessed Nov. 6, 2024).    
+[2]	A. Najibi, “Racial Discrimination in Face Recognition Technology,” Science in the News, https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/ (accessed Nov. 9, 2024). 
