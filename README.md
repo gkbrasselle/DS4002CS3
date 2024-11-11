@@ -11,14 +11,15 @@ This project was completed using Mac and Windows platforms. The coding language 
     - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
       
 2. SCRIPTS
+    - p3dataappendix.R --> a script containing the code used to produce summary statistics and histograms for the data appendix
     - step1_testing.ipynb --> 
     - step2_EDA.ipynb --> script containing the intial exploratory data analysis plots
 
-4. OUTPUT
+3. OUTPUT
 
       
-5. LICENSE
-6. README.md
+4. LICENSE
+5. README.md
   
 ## Section 3: Instructions for reproducing results
 
