@@ -2,7 +2,7 @@
 
 ## Section 1: Software and platform section
 
-This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environment used was Google Colab. The face-recognition package in Python was used, for which documentation can be accessed here: https://pypi.org/project/face-recognition/
+This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environment used was Google Colab. The Keras framwork was used, for which documentation can be accessed here: [https://pypi.org/project/face-recognition/](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras)
 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
