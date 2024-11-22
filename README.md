@@ -24,6 +24,20 @@ This project was completed using Mac and Windows platforms. The coding language 
                 -"all_celebs_image_data.csv" --> contains image data (brightness, celeb gender, etc.) for each of the 400 images in the complete "celebrities_all" folder (including augmented images). Each image is denoted with a filepath.
 
                 -"celeb_image_data.csv" --> contains image data (brightness, celeb gender, etc.) for each of the 100 images in the "celebrities" folder (which does not include augmented images). Each image is denoted with a filepath.
+
+        -**"incorrect_guesses_data" subfolder with the following files:**
+
+                -"incorrect_guesses_data.csv" --> contains complete image data (brightness, celeb gender, etc.) for images which were incorrectly identified during the last testing epoch (epoch 100). Images are denoted with filepaths.
+
+                -"incorrect_guesses_epoch_100.csv" --> contains a list of images which were incorrectly identified during the last tesing epoch (epoch 100). This was merged with "all_celebs_image_data.csv" to produce "incorrect_guesses_data.csv".
+
+                -"incorrect_guesses.csv" --> contains a full list of images which were misidentified in each epoch.
+
+        -**"testing_epoch_data" subfolder with the following files:**
+
+                -"epoch_results_v4.csv" contains a full list of image identifcation testing results across epochs.
+
+                -"
     
     
     - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
