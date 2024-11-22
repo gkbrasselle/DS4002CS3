@@ -38,9 +38,9 @@ This project was completed using Mac and Windows platforms. The coding language 
                 -"epoch_results_v4.csv" --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
     
     
-    Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
+    **Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
 
-    "haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facial identification.
+    **"haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facialidentification.**
       
 2. SCRIPTS
 
@@ -54,11 +54,11 @@ This project was completed using Mac and Windows platforms. The coding language 
 
     - STEP5-final_testing.ipynb --> A script which uses Keras to train a model to correctly identify celebrity faces. The base dataset used is "celebrities_all" from the "celebrity_images" folder. 100 testing epochs are used.
 
-    -STEP6-epoch_analysis.ipynb --> A script which analyzes the model's facial identifiaction accuracy across epochs. 
+    - STEP6-epoch_analysis.ipynb --> A script which analyzes the model's facial identifiaction accuracy across epochs. 
 
-    -STEP7-dataframe_creation_all_celebs.ipynb --> A script which generates a dataframe in which to store data for all of the images used in testing. This df is saved as "all_celebs_image_data.csv". Subsequently, this dataset is merged with "incorrect_guesses_epoch_100.csv" to produce "incorrect_guesses_data.csv", which is a dataset containing complete image data for every photo incorrectly identified in epoch 100.
+    - STEP7-dataframe_creation_all_celebs.ipynb --> A script which generates a dataframe in which to store data for all of the images used in testing. This df is saved as "all_celebs_image_data.csv". Subsequently, this dataset is merged with "incorrect_guesses_epoch_100.csv" to produce "incorrect_guesses_data.csv", which is a dataset containing complete image data for every photo incorrectly identified in epoch 100.
 
-    -STEP8-misidentifications_EDA.ipynb --> A script which performs EDA on "incorrect_guesses_data.csv" to describe the distribution of image characteristics for images misidentified in epoch 100. The output from the script is saved in "Misidentified Images EDA.pdf" in the output folder.
+    - STEP8-misidentifications_EDA.ipynb --> A script which performs EDA on "incorrect_guesses_data.csv" to describe the distribution of image characteristics for images misidentified in epoch 100. The output from the script is saved in "Misidentified Images EDA.pdf" in the output folder.
 
 3. OUTPUT
 
