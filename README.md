@@ -38,9 +38,9 @@ This project was completed using Mac and Windows platforms. The coding language 
                 -"epoch_results_v4.csv" --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
     
     
-    **Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
+    **3. Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
 
-    **"haarcascade_frontalface_default.xml" --> contains documentation for Haar Cascade facial encodings. This is used for facial identification in the "STEP4-keras_recognition.ipynb" file**
+    **4. "haarcascade_frontalface_default.xml" --> contains documentation for Haar Cascade facial encodings. This is used for facial identification in the "STEP4-keras_recognition.ipynb" file**
       
 2. SCRIPTS
 
