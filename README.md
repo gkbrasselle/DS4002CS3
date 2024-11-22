@@ -95,10 +95,16 @@ This project was completed using Mac and Windows platforms. The coding language 
 
 ## References
 [1] 	J. Brownlee, “How to Perform Face Recognition With VGGFace2 in Keras,” Machine Learning Mastery, https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras// (accessed Nov. 15, 2024). 
+
 [2]	A. Najibi, “Racial Discrimination in Face Recognition Technology,” Science in the News, https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/ (accessed Nov. 9, 2024). 
+
 [3]	A. Rosebrock, “Keras ImageDataGenerator and Data Augmentation,” Pyimagesearch, https://pyimagesearch.com/2019/07/08/keras-imagedatagenerator-and-data-augmentation/ (accessed Nov. 14, 2024). 
+
 [4]	opencv, “Haarcascades,” Github, https://github.com/opencv/opencv/tree/master/data/haarcascades/ (accessed Nov. 14, 2024). 
+
 [5]	A. Jawabreh, “Exploring the Most Advanced Deep Learning Algorithm For Facial Detection,” Medium, ​​https://medium.com/the-modern-scientist/multi-task-cascaded-convolutional-neural-network-mtcnn-a31d88f501c8/ (accessed Nov. 14, 2024). 
+
 [6] 	“Convolutional Neural Network (CNN) in Machine Learning,” Geeks For Geeks, https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/ (accessed Nov. 15, 2024). 
+
 [7] 	J. Brownlee, “Gentle Introduction to the Adam Optimization Algorithm for Deep Learning,” Machine Learning Mastery, https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/ (accessed Nov. 15, 2024).  
 
