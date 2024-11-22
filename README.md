@@ -7,8 +7,14 @@ This project was completed using Mac and Windows platforms. The coding language 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
-    - celeb_image_data.csv --> initial dataset used for analysis. This dataset reflects all of the images in the "celebrities" folder, which are separated into celebrity folders with 100 images per celeb.
+    -"celebrities" subfolder --> contains 25 subfolders, each dedicated to a unique celebrity. Each celeb subfolder contains 100 google images.
+
+    -"celebrities_all" subfolder --> contains 25 subfolders, each dedicated to a unique celebrity. Each celeb subfolder contains the 100 original images for a unique celeb (sourced from the "celebrities" folder), as well as 300 augmented images for that celeb (sourced from the "celebrities_extra" folder).
+
+    -"celebrities_extra" subfolder --> contains 25 subfolders, each dedicated to a unique celebrity. Each celeb subfolder contains 300 augmented images for that celebrity, as generated form the inital 100 photos.
     
+    - celeb_image_data.csv --> initial dataset used for analysis. This dataset reflects all of the images in the "celebrities" folder, which are separated into celebrity folders with 100 images per celeb.
+
     - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
       
 2. SCRIPTS
