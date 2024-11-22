@@ -40,7 +40,7 @@ This project was completed using Mac and Windows platforms. The coding language 
     
     **Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
 
-    **"haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facialidentification.**
+    **"haarcascade_frontalface_default.xml" --> contains documentation for Haar Cascade facial encodings. This is used for facial identification in the "STEP4-keras_recognition.ipynb" file**
       
 2. SCRIPTS
 
