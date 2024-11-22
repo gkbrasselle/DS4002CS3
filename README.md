@@ -2,12 +2,13 @@
 
 ## Section 1: Software and platform section
 
-This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environment used was Google Colab. The Keras framwork was used, for which documentation can be accessed here: [https://pypi.org/project/face-recognition/](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras)
+This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environments used were Google Colab and Gitpod. The Keras framwork was used, for which documentation can be accessed here: [https://pypi.org/project/face-recognition/](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras)
 
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
-    - celeb_image_data.csv --> final dataset used for analysis
+    - celeb_image_data.csv --> initial dataset used for analysis. This dataset reflects all of the images in the "celebrities" folder, which are separated into celebrity folders with 100 images per celeb.
+    
     - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
       
 2. SCRIPTS
