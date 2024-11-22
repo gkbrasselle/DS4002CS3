@@ -19,13 +19,13 @@ This project was completed using Mac and Windows platforms. The coding language 
 
     **FOLDER 2: "image_data" contains the following:**
 
-        -**"celeb_image_data" subfolder with the following files:**
+        -"celeb_image_data" subfolder with the following files:
 
                 -"all_celebs_image_data.csv" --> contains image data (brightness, celeb gender, etc.) for each of the 400 images in the complete "celebrities_all" folder (including augmented images). Each image is denoted with a filepath.
 
                 -"celeb_image_data.csv" --> contains image data (brightness, celeb gender, etc.) for each of the 100 images in the "celebrities" folder (which does not include augmented images). Each image is denoted with a filepath.
 
-        -**"incorrect_guesses_data" subfolder with the following files:**
+        -"incorrect_guesses_data" subfolder with the following files:
 
                 -"incorrect_guesses_data.csv" --> contains complete image data (brightness, celeb gender, etc.) for images which were incorrectly identified during the last testing epoch (epoch 100). Images are denoted with filepaths.
 
@@ -33,14 +33,14 @@ This project was completed using Mac and Windows platforms. The coding language 
 
                 -"incorrect_guesses.csv" --> contains a full list of images which were misidentified in each epoch.
 
-        -**"testing_epoch_data" subfolder with the following files:**
+        -"testing_epoch_data" subfolder with the following files:
 
                 -"epoch_results_v4.csv" --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
     
     
-    **Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
+    Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
 
-    **"haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facial identification.**
+    "haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facial identification.
       
 2. SCRIPTS
 
@@ -90,7 +90,7 @@ This project was completed using Mac and Windows platforms. The coding language 
 
 8. Using the "STEP7-dataframe_creation_all_celebs.ipynb" script, generate a new dataframe which classifies image characteristics (i.e: brightness, celeb gender, etc.) for all images in the dataset using modified code from "STEP1-initial_EDA.ipynb". This dataframe will be saved to the "all_celebs_image_data.csv" file in the data folder. Then, this dataset will be merged with "incorrect_guesses_epoch_100.csv" to produce the dataset "incorrect_guesses_data.csv", which classifies all image attributes for photos which were incorrectly identified in the last testing epoch.
 
-9.Using the "STEP8-misidentifications_EDA.ipynb" script, perform EDA on the "incorrect_guesses_data.csv" file in the data folder. This will allow for an analysis of characteristic trends amongst the images misidentified in the final testing round (epoch 100).
+9. Using the "STEP8-misidentifications_EDA.ipynb" script, perform EDA on the "incorrect_guesses_data.csv" file in the data folder. This will allow for an analysis of characteristic trends amongst the images misidentified in the final testing round (epoch 100).
 
 
 ## References
