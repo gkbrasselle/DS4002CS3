@@ -14,12 +14,17 @@ This project was completed using Mac and Windows platforms. The coding language 
     - p3dataappendix.R --> a script containing the code used to produce summary statistics and histograms for the data appendix
     - step1_testing.ipynb --> 
     - step2_EDA.ipynb --> script containing the intial exploratory data analysis plots
+    - final_testing_v4.ipynb --> the final file used to train and test the model
+    - epoch_analysis.ipynb --> a script containing commands to isolate the incorrect guesses of the model 
 
 3. OUTPUT
+    - epoch_results.csv --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
+    - incorrect_guesses.csv --> a csv file containing information about the incorrect guesses of the model
+    - incorrect_guesses_epoch_100.csv --> a csv file containing all the incorrect guesses from the last epoch (created from incorrect_guesses.csv)
 
       
-4. LICENSE
-5. README.md
+5. LICENSE
+6. README.md
   
 ## Section 3: Instructions for reproducing results
 
