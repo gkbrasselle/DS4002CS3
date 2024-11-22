@@ -29,30 +29,27 @@ This project was completed using Mac and Windows platforms. The coding language 
 
                 -"incorrect_guesses_data.csv" --> contains complete image data (brightness, celeb gender, etc.) for images which were incorrectly identified during the last testing epoch (epoch 100). Images are denoted with filepaths.
 
-                -"incorrect_guesses_epoch_100.csv" --> contains a list of images which were incorrectly identified during the last tesing epoch (epoch 100). This was merged with "all_celebs_image_data.csv" to produce "incorrect_guesses_data.csv".
+                -"incorrect_guesses_epoch_100.csv" --> contains a list of images which were incorrectly identified during the last tesing epoch (epoch 100). Created from incorrect_guesses.csv. This was later merged with "all_celebs_image_data.csv" to produce "incorrect_guesses_data.csv". 
 
                 -"incorrect_guesses.csv" --> contains a full list of images which were misidentified in each epoch.
 
         -**"testing_epoch_data" subfolder with the following files:**
 
-                -"epoch_results_v4.csv" contains a full list of image identifcation testing results across epochs.
+                -"epoch_results_v4.csv" --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
+    
+    
+    **Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project**
 
-                -"
-    
-    
-    - Data Appendix Project 3.pdf --> Data Appendix for all variables in the dataset used for project
+    **"haarcascade_frontalface_default.xml" --> contains a script containing facial encodings. This is used for facial identification.**
       
 2. SCRIPTS
-    - p3dataappendix.R --> a script containing the code used to produce summary statistics and histograms for the data appendix
-    - step1_testing.ipynb --> 
-    - step2_EDA.ipynb --> script containing the intial exploratory data analysis plots
-    - final_testing_v4.ipynb --> the final file used to train and test the model
-    - epoch_analysis.ipynb --> a script containing commands to isolate the incorrect guesses of the model 
+    - STEP1-initial_EDA.ipynb --> 
 
 3. OUTPUT
-    - epoch_results.csv --> a csv file containing the epoch number, the image filepath, the true class of the image, the predicted class of the image, and the confidence level of the guess
-    - incorrect_guesses.csv --> a csv file containing information about the incorrect guesses of the model
-    - incorrect_guesses_epoch_100.csv --> a csv file containing all the incorrect guesses from the last epoch (created from incorrect_guesses.csv)
+
+    - Initial Celeb Dataset EDA.pdf --> contains graphs analyzing "celeb_image_data.csv". The initial 100 images are analyzed for each of the 25 celebs.
+
+    - Misidentified Images EDA.pdf --> contains graphs analyzing "incorrect_guesses_data.csv". The graphs explore distributions in characteristics for images which were misidentified in the last epoch.
 
       
 5. LICENSE
