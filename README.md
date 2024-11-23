@@ -4,6 +4,30 @@
 
 This project was completed using Mac and Windows platforms. The coding language used was Python and the coding environments used were Google Colab and Gitpod. The Keras framwork was used, for which documentation can be accessed here: [https://pypi.org/project/face-recognition/](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras)
 
+In order to run the files, install the following packages / libraries:
+
+pip install pandas
+
+pip install pillow
+
+pip install seaborn
+
+pip install matplotlib
+
+pip install numpy
+
+pip install imutils
+
+pip install opencv-python
+
+pip install tensorflow
+
+pip install scipy
+
+pip install facenet-pytorch
+
+pip install scikit-learn
+
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
@@ -91,6 +115,8 @@ This project was completed using Mac and Windows platforms. The coding language 
 8. Using the "STEP7-dataframe_creation_all_celebs.ipynb" script, generate a new dataframe which classifies image characteristics (i.e: brightness, celeb gender, etc.) for all images in the dataset using modified code from "STEP1-initial_EDA.ipynb". This dataframe will be saved to the "all_celebs_image_data.csv" file in the data folder. Then, this dataset will be merged with "incorrect_guesses_epoch_100.csv" to produce the dataset "incorrect_guesses_data.csv", which classifies all image attributes for photos which were incorrectly identified in the last testing epoch.
 
 9. Using the "STEP8-misidentifications_EDA.ipynb" script, perform EDA on the "incorrect_guesses_data.csv" file in the data folder. This will allow for an analysis of characteristic trends amongst the images misidentified in the final testing round (epoch 100).
+
+10. Finalize the data appendix using the "STEP9-data_appendix_part2.ipynb" script.
 
 
 ## References
