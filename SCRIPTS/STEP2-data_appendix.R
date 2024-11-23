@@ -1,4 +1,6 @@
 
+# Create graphs for data appendix based on "celeb_image_data.csv"
+
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
