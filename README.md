@@ -98,9 +98,9 @@ pip install scikit-learn
 
 ### Please follow these steps in order to replicate this project's experimental design:
 
-1. Download celebrity images on Google, separating them into folders by celebrity name, such as "Margot-Robbie" or "Will-Smith." Ensure that each folder contains 100 celebrity images, labelled 01-100. Alternatively, use the image folders pre-collected in the "celebrities" folder for ease of replication.
+1. To gather the data, begin by identifying at least 25 selected celebrities of interest. Download 100 images of each celebrity from Google images, ensuring that there are no other faces/people within the image. Organize them into separate folders labeled with celebrity name in the format "First-Last". Each image within the folder should be titled with the format "##.jpg", using zeroes as placeholders for the tens place if necessary. Alternatively, use the image folders pre-collected in the "/DATA/celebrity_images/celebrities" folder for ease of replication.
 
-2. Navigate to the "STEP1-initial_EDA.ipynb" file in the scripts folder. Using the code, generate a dataframe to classify the celebrity images, in addition to producing the graphs for "Initial Celeb Dataset EDA.ipyb".
+2. Navigate to the "STEP1-initial_EDA.ipynb" file in the scripts folder. Using the code, generate a dataframe to classify the celebrity images, in addition to producing the graphs for "Initial Celeb Dataset EDA.ipynb".
 
 3. Create graphs for the data appendix using "STEP2-data_appendix.R" in the scripts folder. These graphs will also describe images in the "celebrities" folder.
 
