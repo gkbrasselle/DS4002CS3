@@ -31,26 +31,21 @@ pip install scikit-learn
 ## Section 2: Map of Documentation
 ### This repository is organized as follows:
 1. DATA
-
-    **FOLDER 1: "celebrity_images" contains the following:**
-
-         -"celebrities" subfolder --> contains 25 subfolders, each dedicated to a unique celebrity. Each celeb subfolder contains 100 google images.
-         -"haarcascade_frontalface_default.xml" --> contains documentation for Haar Cascade facial encodings. This is used for facial identification in the "keras_recognition.ipynb" file**
+      -"celebrities" subfolder --> contains 25 subfolders, each dedicated to a unique celebrity. Each celeb subfolder contains 100 google images.
+      -"haarcascade_frontalface_default.xml" --> contains documentation for Haar Cascade facial encodings. This is used for facial identification in the "keras_recognition.ipynb" file**
       
-3. SCRIPTS
-
+2. SCRIPTS
     - initial_EDA.ipynb --> A script which uses "celeb_image_data.csv" to produce the EDA graphs in "Initial Celeb Dataset EDA".
-
     - image_processing.ipynb --> A script used to process the 100 images for each celeb (as contained within the "celebrities" subfolderwithin "celebrity_images"), applying transformations to the images in order to create an addition 300 augmented images per celeb. The extra augmented images are saved to the "celebrities_extra" folder.
-
     - keras_recognition.ipynb --> A script used to test if image augmentation was successful (i.e: by using tensorflow to see if the images in "celebrities_extra" contain faces, etc.)
-
     - final_testing.ipynb --> A script which uses Keras to train a model to correctly identify celebrity faces. The base dataset used is "celebrities_all" from the "celebrity_images" folder. 100 testing epochs are used.
+    - epoch_analysis.ipynb --> A script which analyzes the model's facial identifiaction accuracy across epochs.
 
-    - epoch_analysis.ipynb --> A script which analyzes the model's facial identifiaction accuracy across epochs. 
-      
-5. LICENSE
-6. README.md
+3. REFERENCES
+    - Contains articles providing background information about the case study topic
+    - Additional Keras documentation can be found at https://keras.io/
+4. LICENSE
+5. README.md
   
 ## Section 3: Instructions for reproducing results
 
@@ -66,7 +61,7 @@ pip install scikit-learn
 
 5. Using the "final_testing.ipynb" script, build a simple CNN model for use in testing. The script will utilize Keras, running 100 epochs to train the model to correctly identify celebrity images. Results will be saved to the "epoch_results.csv" file in the data folder.
 
-6. Using the "STEP6-epoch_analysis.ipynb" script, generate the "incorrect_guesses_data.csv" and "incorrect_guesses_epoch_100.csv" files, which should be saved to the data folder. These data files contain data for images which were incorrectly identified by the model during tests. "incorrect_guesses_data.csv" will contain incorrect guesses for all epochs, whereas "incorrect_guess_epoch_100.csv" will contain data only for incorrct guesses in the final epoch.
+6. Using the "epoch_analysis.ipynb" script, generate the "incorrect_guesses_data.csv" and "incorrect_guesses_epoch_100.csv" files, which should be saved to the data folder. These data files contain data for images which were incorrectly identified by the model during tests. "incorrect_guesses_data.csv" will contain incorrect guesses for all epochs, whereas "incorrect_guess_epoch_100.csv" will contain data only for incorrct guesses in the final epoch.
 
 7. Use the generated .csv files to analyze the results and perform initial EDA as needed
 
@@ -85,4 +80,12 @@ pip install scikit-learn
 [6] 	“Convolutional Neural Network (CNN) in Machine Learning,” Geeks For Geeks, https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/ (accessed Nov. 15, 2024). 
 
 [7] 	J. Brownlee, “Gentle Introduction to the Adam Optimization Algorithm for Deep Learning,” Machine Learning Mastery, https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/ (accessed Nov. 15, 2024).  
+
+[8]	“Facial Recognition Advertising for Better Targeting,” Business News Daily. Accessed: Dec. 05, 2024. [Online]. Available: https://www.businessnewsdaily.com/15213-walgreens-facial-recognition.html
+
+[9]	“‘We try to use it as much as we can’: How facial recognition became a routine policing tool in America,” NBC News. Accessed: Dec. 05, 2024. [Online]. Available: https://www.nbcnews.com/news/us-news/how-facial-recognition-became-routine-policing-tool-america-n1004251
+
+[10] 	SITNFlash, “Racial Discrimination in Face Recognition Technology,” Science in the News. Accessed: Dec. 05, 2024. [Online]. Available: https://sitn.hms.harvard.edu/flash/2020/racial-discrimination-in-face-recognition-technology/
+
+[11] 	“Biased Technology: The Automated Discrimination of Facial Recognition | ACLU of Minnesota.” Accessed: Dec. 05, 2024. [Online]. Available: https://www.aclu-mn.org/en/news/biased-technology-automated-discrimination-facial-recognition
 
